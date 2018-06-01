@@ -96,7 +96,8 @@ set whichwrap+=<,>,h,l,[,]
 set fillchars=vert:\
 
 " Use these symbols for invisible chars
-set listchars=tab:¦\ ,eol:¬,trail:⋅,extends:»,precedes:«
+" set listchars=tab:¦\ ,eol:¬,trail:⋅,extends:»,precedes:«
+set listchars=tab:>-,eol:¬,trail:$,extends:»,precedes:«
 
 set foldlevel=100 " unfold all by default
 
@@ -127,6 +128,7 @@ set shortmess=aoOtTI " Abbrev. of messages
 
 " Highlight current line
 set cursorline
+set cursorcolumn
 
 " the mouse pointer is hidden when characters are typed
 set mousehide
