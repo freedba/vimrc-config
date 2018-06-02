@@ -937,5 +937,6 @@ if filereadable(expand("~/.vimrc.after"))
 endif
 
 " 注释的颜色
-hi comment ctermfg=darkred
+" hi comment ctermfg=darkred
+hi comment ctermfg=gray
 " vim:set et sw=4 ts=4 fdm=marker fdl=1 noma:
